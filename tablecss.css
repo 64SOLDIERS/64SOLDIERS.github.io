@@ -1,0 +1,36 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: rgba(39, 90, 47, 0.686);
+}
+
+th, td {
+    border: 2.5px solid #d1e408;
+    font-size: 27px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-text {
+text-align: center;
+background-color: rgba(39, 90, 47, 0.686);
+width: 24%;
+margin: 20px;
+padding: 10px 0 10px 0;
+border-radius: 50%;
+}
+body {
+    color: white;
+    background-image: url(bgp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+thead th {
+    font-size: 30px;
+}
+thead th img {
+    margin-top: 5px;
+}
